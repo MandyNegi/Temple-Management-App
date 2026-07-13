@@ -1,36 +1,68 @@
 # Temple Management App
 
-This Project Is a Temple Management Application For GFSC Township Charitable Trust Temple located in Jamanagar
+Temple Management App is a Flutter-based mobile application for GFSC Township Charitable Trust Temple in Jamnagar. It provides a modern digital experience for temple visitors and administrators with features such as browsing temple events, managing donations, booking pooja slots, and handling temple-related services.
 
-Technology : Flutter\
-Database : Firebase Firestore\
-Payment Gateway : Razorpay\
-State Management : GETx
+## What’s included
 
-## Getting Started
+- Home dashboard with animated slider, featured tiles, and live darshan sections
+- Books management module with inventory, sales, and reports
+- Sewa management module with Firestore-backed programs and details
+- Donation flow with Razorpay integration
+- Slot booking for pooja services
+- Contact, circulars, gallery, and about us screens
+- Firebase-backed data for temple events, slider images, and sewa programs
 
-1) Clone the repository
-```
-git clone https://github.com/amitamrutiya2210/GSFC_Temple_Management
-```
-2) Install the dependencies
-```
-flutter pub get
-```
-3) For Store data connect you app with [Firebase](https://firebase.google.com/) Database
-4) For Payment Gatway create [Razorpay](https://razorpay.com/) account and set API Keys
-5) For Mail Service create account on [email.js](https://www.emailjs.com/) and set API key
+## Tech stack
 
-6) Run the app on an emulator or device
-``` 
-flutter run
-```
-\
-Download the app from this this [link](https://drive.google.com/file/d/1pFQZnlTYGDpJM9tbxxg5VIsiSkJTLZs6/view?usp=share_link).\
-Open the app on your android device.
+- Flutter / Dart
+- Firebase Firestore, Firebase Auth, Firebase Storage
+- GetX for navigation and state management
+- Razorpay for payments
+- Google Maps and location services
+- Custom UI components and reusable widgets
 
-## Demo of Project
-https://user-images.githubusercontent.com/91112485/205669074-f965d74b-2a05-4f51-a029-4beec45da293.mp4
+## Getting started
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/amitamrutiya2210/GSFC_Temple_Management
+   cd Temple-Management-App-master
+   ```
+
+2. Install dependencies
+   ```bash
+   flutter pub get
+   ```
+
+3. Configure Firebase
+   - Create a Firebase project
+   - Enable Firestore, Authentication, and Storage if required
+   - Add your Firebase configuration files such as google-services.json and firebase_options.dart
+
+4. Configure payment and location services
+   - Create a Razorpay account and add your API keys
+   - Configure any required Google Maps / location permissions for the device platform
+
+5. Run the app
+   ```bash
+   flutter run
+   ```
+
+## Project structure
+
+- lib/main.dart - app entry point
+- lib/screens - all main screens and pages
+- lib/services - Firebase and backend service logic
+- lib/models - data models
+- lib/routes - route definitions
+- lib/widget - reusable UI widgets
+- lib/utils - colors, constants, dimensions, and helpers
+
+## Notes
+
+- Some features depend on Firebase data being present in your Firestore database.
+- Local secrets, signing files, and build artifacts should be kept out of version control using the repository ignore rules.
 
 ## Support
-If you have any issues or questions about the app, please contact us at amitamrutiya2210@gmail.com for assistance.
+
+If you have any questions or run into issues, please contact the project maintainer at amitamrutiya2210@gmail.com.
