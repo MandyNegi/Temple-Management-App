@@ -25,7 +25,7 @@ Temple Management App is a Flutter-based mobile application for GFSC Township Ch
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/amitamrutiya2210/GSFC_Temple_Management
+   git clone https://github.com/MandyNegi/Temple-Management-App.git
    cd Temple-Management-App-master
    ```
 
