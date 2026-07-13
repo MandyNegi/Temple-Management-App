@@ -65,4 +65,4 @@ Temple Management App is a Flutter-based mobile application for GFSC Township Ch
 
 ## Support
 
-If you have any questions or run into issues, please contact the project maintainer at amitamrutiya2210@gmail.com.
+If you have any questions or run into issues, please contact the project maintainer at mandeepnegi010@gmail.com.
